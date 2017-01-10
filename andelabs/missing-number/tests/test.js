@@ -1,6 +1,6 @@
 
 	'use strict';
-	
+
 	var findMissing = require('../library.js').findMissing;
 
 	describe("Find missing number two lists: ", function() {
@@ -38,6 +38,22 @@
 
 			it("should return 1 for [5, 4, 7, 6, 11, 66],[5, 4, 1, 7, 6, 11, 66]", function() {
 			expect(findMissing([5, 4, 7, 6, 11, 66], [5, 4, 1, 7, 6, 11, 66])).toEqual(1);
+			});
+
+		});
+
+		describe("Case for either or both arguments is not an array", function() {
+
+			it("should return 'Tests for arrays' for 'test',[1,2,5]", function() {
+			expect(findMissing('test', [1, 2, 5])).toEqual("Tests for arrays");
+			});
+
+			it("should return 'Tests for arrays' for [4, 6, 8],'test'", function() {
+			expect(findMissing([4, 6, 8], 'test')).toEqual("Tests for arrays");
+			});
+
+			it("should return 'Tests for arrays' for 'test1','test2'", function() {
+			expect(findMissing('test1', 'test2')).toEqual("Tests for arrays");
 			});
 
 		});
