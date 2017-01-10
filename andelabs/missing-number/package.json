@@ -1,0 +1,14 @@
+{
+  "name": "missing-number",
+  "version": "1.0.0",
+  "description": "(compares two arrays and check for the odd one out)",
+  "main": "library.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tests/"
+  },
+  "author": "seunkoko",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "binary-search",
+  "version": "1.0.0",
+  "description": "(implements the binary search algorithm with a little more efficiency)",
+  "main": "library.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tests/"
+  },
+  "author": "seunkoko",
+  "license": "ISC"
+}
