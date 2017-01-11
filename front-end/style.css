@@ -1,0 +1,107 @@
+
+	* {
+		width: auto;
+		margin-top: 0;
+		line-height: 1.44em;
+		font-family: "jaf-facitweb","Helvetica Neue",Arial,sans-serif;
+		color: #4d4d4d;
+	}
+
+	#header {
+		height: 100px;
+	}
+
+	#mainBody {
+		padding: 3.5%;
+	}
+
+	#container {
+		padding-left: 26%;
+		word-wrap: break-word;
+		font-weight: normal;
+		margin-bottom: 8%;
+		font-size: 20px;
+	}
+
+	#links {
+		margin-left: 28%;
+		font-size: 16px;
+	}
+
+	#copyright {
+		margin-left: 32%;
+		font-size: 16px;
+		margin-bottom: 5%;
+	}
+
+	.block {
+		display: block;
+	}
+
+	.infoTexts {
+		color: #999;
+		font-size: 20px;
+		word-wrap: break-word;
+		width: 70%;
+		margin-top: 2%;
+	}
+
+	.darkerShade {
+		color: #4d4d4d;
+		font-weight: bold;
+	}
+
+	.createAccountButton {
+		background: #e2e4e6;
+		border-radius: .3em;
+		color: #8c8c8c;;
+		font-weight: bold;
+		padding: .6em 1.3em;
+		text-decoration: none;
+		margin-top: 2%;
+		margin-bottom: 6%;
+		border: 0;
+		width: 22%;
+	}
+
+	.greenButton {
+		background: #61bd4f;
+		background: -webkit-linear-gradient(top, #61bd4f 0, #5aac44 100%);
+		background: linear-gradient(to bottom, #61bd4f 0, #5aac44 100%);
+		box-shadow: 0 2px 0 #3f6f21;
+		color: #fff;
+	}
+
+	h1 {	
+		font-size: 2em;
+		font-weight: bold;
+		line-height: 1.2em;
+	}
+
+	input {
+		background: #edeff0;
+		border-radius: 4px;
+		border: 1px solid #cdd2d4;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: .5em;
+		width: 38%;
+	}
+	
+	a {
+		color: #999;
+		padding-right: 4px;
+		padding-left: 4px;
+	}
+
+	input {
+		margin-top: 1%;
+		margin-bottom: 2%;
+		width: 47%;
+		font-size: 20px;
+	}
+	
+
+
+
+
